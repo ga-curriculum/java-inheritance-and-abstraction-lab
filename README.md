@@ -1,30 +1,45 @@
-# ![[tktk Module Name]](./assets/inheritance-abstraction-lab.png)
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">Java Inheritance and Abstraction Lab</span>
+</h1>
 
 ## About
 
-In this lab, you will practice creating abstract classes and interfaces to model a hierarchy of vehicles.
-
-## Prerequisites
-
-- Java Abstract Classes vs. Interfaces Module
-
-## Time to complete
-
-Estimated time to complete core lab exercise: **75 min**
+In this lab, you'll practice creating abstract classes and interfaces to model a hierarchy of vehicles.
 
 ## Content
 
 - [Setup](./setup/README.md)
 - [Exercise](./exercise/README.md)
 
-## Solution code
+## Internal
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/inheritance-and-abstraction-lab-solution)
+### Prerequisites
 
-## Internal resources
+- Java Abstract Classes vs. Interfaces
+
+### Time to complete
+
+Estimated time to complete core lab exercise: **75 min**
+
+### Solution code
+
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/java-inheritance-and-abstraction-lab-solution)
+
+### Course landing pages
+
+- [JCD - Java Career Development Program](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/java-inheritance-and-abstraction-lab/canvas-landing-pages/jcd.html)
+- [JSC - Java Short Course](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/java-inheritance-and-abstraction-lab/canvas-landing-pages/jsc.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/java-inheritance-and-abstraction-lab/canvas-landing-pages/fallback.html)
+
+### Resources
+
+✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
+
+🎥 [Video Hub](./internal-resources/video-hub.md)
 
 🏗️ [Release Notes](./internal-resources/release-notes.md)
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/blob/main/module-feedback.md)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**

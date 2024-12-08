@@ -1,22 +1,52 @@
-# ![[tktk Module Name] - Setup](./assets/setup.png)
+<h1>
+  <span class="headline">Java Inheritance and Abstraction Lab</span>
+  <span class="subhead">Setup</span>
+</h1>
 
 ## Setup
 
-Open IntelliJ IDEA Community Edition and create a new Java project. Select the following setting for this lab:
+Launch the IntelliJ IDEA application.
 
-- **Named**: `inheritance-and-abstraction-lab`
-- **Location**: `~/labs` - This can be anywhere, but I suggest this location for consistency
-- **Build System**: IntelliJ
-- **JDK**: 17 - This should be already downloaded on your machine
+Select the **New Project** option.
 
-Once you have selcted the settings, click `Finish`.
+Name the project `java-inheritance-and-abstraction-lab`.
 
-Remove the starter code from the `Main.java` file and complete the exercises.
+Create the project in the <code class="filepath">~/code/ga/labs</code> directory.
 
-## Running your Work
+> ⚠️ Windows users, the <code class="filepath">labs</code> directory is likely at this location on your device: <code class="filepath">C:\Users\username\code\ga\labs</code> (replacing `username` with your username). Create the project in that directory instead.
 
-When you are at a point to run your work you can either:
+Choose the **Maven** build system option.
 
-1. Right-click on the `Main` class and select `Run 'Main.main()'`.
-2. Click the green play button next to the `Main` class.
-3. Use the terminal to compile and run the program.
+Ensure the JDK used is **temurin-17**. This should be the default setting when starting a new project. If it's not, alert your instructor.
+
+Ensure that the **Add sample code** option is not checked.
+
+After confirming that the **New Project** window looks similar to the screenshot below, select the **Create** button. The name of the project should be `java-inheritance-and-abstraction-lab`, not `untitled`.
+
+![A new project being created in the ~/code/ga/labs directory, the JDK is temurin-17, and the add sample code option is has been unchecked. The name of the project should be java-inheritance-and-abstraction-lab.](./assets/new-project-complete.png)
+
+Right-click on the <code class="filepath">src/main/java</code> directory and select **New** > **Java Class**, as shown in the screenshot below:
+
+![The beginnings of a new Java class in the src/main/java directory.](./assets/new-java-class.png)
+
+Name your new class `org.example.Main` as shown below.
+
+![The org.example.Main class being created.](./assets/create-new-java-class.png)
+
+When your **New Java Class** prompt looks like the above, select the **Class** option from the list. You should be taken to the new <code class="filepath">Main.java</code> file.
+
+Add the required `main()` method inside of the `Main` class, including a print statement to confirm our setup worked:
+
+```java
+    public static void main(String[] args) {
+        System.out.println("This works!");
+    }
+```
+
+Run this file now to test that our setup worked. Use the green play button in the top bar, or use <kbd>Ctrl</kbd> + <kbd>R</kbd>.
+
+![Run the Main.java file](./assets/run-file.png)
+
+A **Run** panel will appear at the bottom of the window, and you should see a message: `This works!`
+
+We can get to work now that our project is set up.
